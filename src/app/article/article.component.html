@@ -1,0 +1,12 @@
+<div class="row mt-5">
+    <div class="col-4 gray">{{article.score}}</div>
+    <div class="col-8">
+        <h2>{{article.title}}</h2>
+        <p>{{article.link}}</p>
+        <p>
+            <input type="button" class="btn btn-success" value="UP Vote" (click)="upVote()"/>
+            <input type="button" class="btn btn-danger" value="DOWN Vote" (click)="downVote()"/>
+        </p>
+    </div>
+   
+</div>
